@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <title>Exercício 9</title>
+    <style>
+        #titulo {
+            color: black;
+        }
+    </style>
+</head>
+<body>
+
+    <h1 id="titulo">Meu Título</h1>
+
+    <script>
+        const titulo = document.getElementById("titulo");
+
+        titulo.style.color = "green";
+        titulo.style.backgroundColor = "yellow";
+    </script>
+
+</body>
+</html>
