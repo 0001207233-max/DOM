@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <title>Exercício 8</title>
+    <style>
+        #circulo {
+            width: 100px;
+            height: 100px;
+            background-color: red;
+            border-radius: 50%;
+            display: inline-block;
+            margin-right: 10px;
+        }
+
+        #quadrado {
+            width: 100px;
+            height: 100px;
+            background-color: blue;
+            display: inline-block;
+        }
+    </style>
+</head>
+<body>
+
+    <div id="circulo"></div>
+    <div id="quadrado"></div>
+
+    <script>
+        const circulo = document.getElementById("circulo");
+        const quadrado = document.getElementById("quadrado");
+
+        circulo.style.backgroundColor = "blue";
+        quadrado.style.backgroundColor = "red";
+    </script>
+
+</body>
+</html>
