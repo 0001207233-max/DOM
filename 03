@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <title>Exercício 3</title>
+    <style>
+        #circulo {
+            width: 100px;
+            height: 100px;
+            background-color: yellow;
+            border-radius: 50%;
+        }
+    </style>
+</head>
+<body>
+
+    <div id="circulo"></div>
+
+    <script>
+        const circulo = document.getElementById("circulo");
+        circulo.style.backgroundColor = "purple";
+    </script>
+
+</body>
+</html>
