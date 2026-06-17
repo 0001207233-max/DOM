@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <title>Exercício 15</title>
+    <style>
+        #quadrado {
+            width: 100px;
+            height: 100px;
+            background-color: yellow;
+            margin-bottom: 10px;
+        }
+    </style>
+</head>
+<body>
+
+    <div id="quadrado"></div>
+
+    <button onclick="mudarParaAzul()">Azul</button>
+    <button onclick="mudarParaRosa()">Rosa</button>
+
+    <script>
+        function mudarParaAzul() {
+            document.getElementById("quadrado").style.backgroundColor = "blue";
+        }
+
+        function mudarParaRosa() {
+            document.getElementById("quadrado").style.backgroundColor = "pink";
+        }
+    </script>
+
+</body>
+</html>
