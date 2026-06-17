@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <title>Exercício 20</title>
+    <style>
+        #circulo {
+            width: 100px;
+            height: 100px;
+            background-color: blue;
+            border-radius: 50%;
+            margin-bottom: 10px;
+        }
+    </style>
+</head>
+<body>
+
+    <div id="circulo"></div>
+
+    <button onclick="esconder()">Esconder</button>
+
+    <script>
+        function esconder() {
+            document.getElementById("circulo").style.display = "none";
+        }
+    </script>
+
+</body>
+</html>
