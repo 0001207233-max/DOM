@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <title>Exercício 11</title>
+    <style>
+        #caixa {
+            background-color: pink;
+            padding: 20px;
+            width: 300px;
+        }
+
+        #texto {
+            color: black;
+        }
+    </style>
+</head>
+<body>
+
+    <div id="caixa">
+        <p id="texto">Este é um parágrafo dentro da div.</p>
+    </div>
+
+    <script>
+        const caixa = document.getElementById("caixa");
+        const texto = document.getElementById("texto");
+
+        caixa.style.backgroundColor = "black";
+        texto.style.color = "pink";
+    </script>
+
+</body>
+</html>
