@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <title>Exercício 16</title>
+    <style>
+        #retangulo {
+            width: 300px;
+            height: 120px;
+            background-color: white;
+            color: black;
+            border: 1px solid black;
+            padding: 10px;
+            margin-bottom: 10px;
+        }
+    </style>
+</head>
+<body>
+
+    <div id="retangulo">
+        Este é um retângulo com texto.
+    </div>
+
+    <button onclick="modoEscuro()">Modo Escuro</button>
+
+    <script>
+        function modoEscuro() {
+            const retangulo = document.getElementById("retangulo");
+
+            retangulo.style.backgroundColor = "black";
+            retangulo.style.color = "white";
+        }
+    </script>
+
+</body>
+</html>
