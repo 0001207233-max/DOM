@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <title>Exercício 12</title>
+    <style>
+        #oval {
+            width: 200px;
+            height: 100px;
+            background-color: gray;
+            border-radius: 50%;
+        }
+    </style>
+</head>
+<body>
+
+    <div id="oval"></div>
+
+    <script>
+        const oval = document.getElementById("oval");
+        oval.style.backgroundColor = "cyan";
+    </script>
+
+</body>
+</html>
