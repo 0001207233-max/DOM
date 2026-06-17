@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <title>Exercício 14</title>
+    <style>
+        #circulo {
+            width: 100px;
+            height: 100px;
+            background-color: red;
+            border-radius: 50%;
+            margin-bottom: 10px;
+        }
+    </style>
+</head>
+<body>
+
+    <div id="circulo"></div>
+
+    <button onclick="trocarCor()">Trocar Cor</button>
+
+    <script>
+        function trocarCor() {
+            const circulo = document.getElementById("circulo");
+            circulo.style.backgroundColor = "green";
+        }
+    </script>
+
+</body>
+</html>
