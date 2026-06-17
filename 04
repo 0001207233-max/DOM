@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <title>Exercício 4</title>
+    <style>
+        .quadrado {
+            width: 100px;
+            height: 100px;
+            background-color: gray;
+            margin: 10px;
+            display: inline-block;
+        }
+    </style>
+</head>
+<body>
+
+    <div id="q1" class="quadrado"></div>
+    <div id="q2" class="quadrado"></div>
+    <div id="q3" class="quadrado"></div>
+
+    <script>
+        document.getElementById("q1").style.backgroundColor = "blue";
+        document.getElementById("q2").style.backgroundColor = "orange";
+        document.getElementById("q3").style.backgroundColor = "pink";
+    </script>
+
+</body>
+</html>
