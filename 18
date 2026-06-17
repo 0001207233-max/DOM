@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <title>Exercício 18</title>
+    <style>
+        .quadrado {
+            width: 100px;
+            height: 100px;
+            background-color: gray;
+            display: inline-block;
+            margin: 5px;
+        }
+    </style>
+</head>
+<body>
+
+    <div id="q1" class="quadrado"></div>
+    <div id="q2" class="quadrado"></div>
+    <div id="q3" class="quadrado"></div>
+
+    <br><br>
+
+    <button onclick="colorir()">Colorir</button>
+
+    <script>
+        function colorir() {
+            document.getElementById("q1").style.backgroundColor = "red";
+            document.getElementById("q2").style.backgroundColor = "green";
+            document.getElementById("q3").style.backgroundColor = "blue";
+        }
+    </script>
+
+</body>
+</html>
