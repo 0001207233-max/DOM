@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <title>Exercício 19</title>
+    <style>
+        #titulo {
+            color: black;
+            padding: 10px;
+        }
+    </style>
+</head>
+<body>
+
+    <h1 id="titulo">Meu Título</h1>
+
+    <button onclick="destacar()">Destacar</button>
+
+    <script>
+        function destacar() {
+            const titulo = document.getElementById("titulo");
+
+            titulo.style.color = "white";
+            titulo.style.backgroundColor = "blue";
+        }
+    </script>
+
+</body>
+</html>
